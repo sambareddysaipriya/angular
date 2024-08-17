@@ -1,0 +1,16 @@
+.place{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 0, 128, 0.366);
+}
+.but{
+    background-color: purple;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.but:hover{
+    background-color: rgb(214, 130, 144);
+}

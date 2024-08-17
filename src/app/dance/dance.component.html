@@ -1,0 +1,20 @@
+<div class="place">
+    <form class="feedback" method="post" #myform="ngForm" (ngSubmit)="saveForm(myform.value)">
+      <h1>Placement Company</h1>
+      
+      <input type="checkbox" id="google" name="google" [(ngModel)]="google">
+      <label for="google">Google</label><br>
+      
+      <input type="checkbox" id="IBM" name="IBM" [(ngModel)]="IBM">
+      <label for="IBM">IBM</label><br>
+      
+      <input type="checkbox" id="Amazon" name="Amazon" [(ngModel)]="Amazon">
+      <label for="Amazon">Amazon</label><br>
+      
+      <input type="checkbox" id="Flipkart" name="Flipkart" [(ngModel)]="Flipkart">
+      <label for="Flipkart">Flipkart</label><br>
+      
+      <input type="submit" class="but">
+    </form>
+  </div>
+  
